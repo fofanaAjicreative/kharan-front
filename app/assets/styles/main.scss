@@ -1,0 +1,107 @@
+ .page_title{
+      font-size: 22px ;
+      font-weight: bold ;
+      margin-bottom: 20px ;
+    }
+
+
+.img{
+    max-width: 100% !important;
+ }
+
+ .logo a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+     
+ }
+
+ /* ----------- buttons ---------- */
+
+    .icon_box_dark{
+        background: #FFF;
+        color: #000 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon_box_dark2{
+        background: $secondary-color;
+        color: #000 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon_box_secondary{
+        background: #FFF;
+        color: #000 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .icon_box_white{
+        background: #000;
+        color: #FFF ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .icon_box_large {
+        width: 40px ;
+        height: 36px ;
+        border-radius: 4px
+    }
+
+    .icon_box_medium {
+        width: 32px ;
+        height: 28px ;
+        border-radius: 4px
+    }
+
+    .icon_box_small {
+        width: 24px ;
+        height: 20px ;
+        border-radius: 4px
+    }
+
+   
+    .card_shadow{
+        box-shadow: 0 12px 35px rgba(0,0,0,.08);
+    }
+
+
+
+.no_data{
+    max-width: 500px ;
+    margin: auto ;
+    padding: 30px 10px;
+    .title{
+      font-size: 18px ;
+    }
+    .description{
+      color : #424242 ;
+      font-size: 14px ;
+
+    }
+
+}
+
+
+.dashboard_row{
+    gap : 20px
+}
+
+
+  @media screen and (max-width: 600px) {
+    .dashboard_row{
+        gap : 10px
+    }
+
+  }

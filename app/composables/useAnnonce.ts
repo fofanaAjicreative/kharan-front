@@ -1,0 +1,1 @@
+export const useAnnonce = () => useState<any>('annonce')

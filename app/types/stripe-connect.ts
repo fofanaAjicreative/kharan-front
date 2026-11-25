@@ -1,0 +1,8 @@
+
+export type StripeConnectStatus =
+  | 'NOT_CONNECTED'
+  | 'ONBOARDING_INCOMPLETE'
+  | 'PENDING_VERIFICATION'
+  | 'ACTION_REQUIRED'
+  | 'ACTIVE'
+  | 'RESTRICTED';
