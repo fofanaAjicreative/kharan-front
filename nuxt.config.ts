@@ -59,9 +59,10 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      //apiBaseUrl: 'http://localhost:5000/api/',
-      apiBaseUrl: 'http://localhost:5000/api/',
-      socketUrl:'http://localhost:5000',
+      apiBaseUrl: 'https://apikharan.laabal.com/api/',
+      socketUrl:'https://apikharan.laabal.com',
+      // apiBaseUrl: 'http://localhost:5000/api/',
+      // socketUrl:'http://localhost:5000',
       pushPublicKey:'BPpdK-_1J1FBP8lr1ZlutnYrEpt848PMV6N6o23x6UXaLDC582DKTONCG8yiIWUEJcWqv3B9pN1SF6Al8F9lPX8'
     },
   },

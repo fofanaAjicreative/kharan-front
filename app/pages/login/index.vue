@@ -170,7 +170,7 @@
                       <v-text-field
                           variant="outlined"
                            
-                          density="compact"
+                          density="default"
                           hide-details="auto"
                           v-model="password"
                           :rules="passwordRules"
